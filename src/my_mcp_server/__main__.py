@@ -3,7 +3,7 @@ logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(
 import httpx
 from mcp.server.fastmcp import FastMCP
 
-API_URL = "http://localhost:8000"
+API_URL = "http://localhost:9000"
 mcp = FastMCP("API-Proxy")
 
 @mcp.resource("greeting://")
